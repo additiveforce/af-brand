@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "name": "AF Color System",
+    "document_id": "af-color-system",
+    "version": "2026",
+    "last_reviewed": "2026-Q1",
+    "scope": "All non-PPT outputs — web, documents, reports. Do not apply to PowerPoint. Use af-color-system-ppt for PPTX work."
+  },
+  "colors": {
+    "pures": {
+      "Pure-White": { "hex": "#ffffff" },
+      "Pure-Black": { "hex": "#000000" }
+    },
+    "charcoal": {
+      "Charcoal-900": { "hex": "#202020", "main": true },
+      "Charcoal-800": { "hex": "#414141" },
+      "Charcoal-700": { "hex": "#606060" },
+      "Charcoal-600": { "hex": "#747474" },
+      "Charcoal-500": { "hex": "#9d9d9d" },
+      "Charcoal-400": { "hex": "#bcbcbc" },
+      "Charcoal-300": { "hex": "#dfdfdf" },
+      "Charcoal-200": { "hex": "#ededed" },
+      "Charcoal-100": { "hex": "#f5f5f5" },
+      "Charcoal-50":  { "hex": "#fafafa", "main": true }
+    },
+    "deep-indigo": {
+      "Deep-Indigo-950": { "hex": "#13131f", "note": "Website only — contrast between adjacent dark sections. Not for use in presentations or other brand materials." },
+      "Deep-Indigo-900": { "hex": "#1c1b2b", "main": true },
+      "Deep-Indigo-800": { "hex": "#3d3b4d" },
+      "Deep-Indigo-700": { "hex": "#5c5a6d" },
+      "Deep-Indigo-600": { "hex": "#706d81" },
+      "Deep-Indigo-500": { "hex": "#9896ab" },
+      "Deep-Indigo-400": { "hex": "#b8b5cb" },
+      "Deep-Indigo-300": { "hex": "#dcd9ef" },
+      "Deep-Indigo-200": { "hex": "#ebe8ff" },
+      "Deep-Indigo-100": { "hex": "#f4f1ff" },
+      "Deep-Indigo-50":  { "hex": "#faf7ff" }
+    },
+    "primary-blue": {
+      "Primary-Blue-900": { "hex": "#2c41cc" },
+      "Primary-Blue-800": { "hex": "#2563eb", "main": true },
+      "Primary-Blue-700": { "hex": "#1d76fe" },
+      "Primary-Blue-600": { "hex": "#098aff" },
+      "Primary-Blue-500": { "hex": "#0099ff" },
+      "Primary-Blue-400": { "hex": "#27a9ff" },
+      "Primary-Blue-300": { "hex": "#58b9ff" },
+      "Primary-Blue-200": { "hex": "#8dceff" },
+      "Primary-Blue-100": { "hex": "#bbe0ff" },
+      "Primary-Blue-50":  { "hex": "#e3f3ff" }
+    },
+    "secondary-red": {
+      "Secondary-Red-900": { "hex": "#b62425" },
+      "Secondary-Red-800": { "hex": "#c62e31" },
+      "Secondary-Red-700": { "hex": "#d33538" },
+      "Secondary-Red-600": { "hex": "#e53e3e", "main": true },
+      "Secondary-Red-500": { "hex": "#f4473f" },
+      "Secondary-Red-400": { "hex": "#ef5758" },
+      "Secondary-Red-300": { "hex": "#e47679" },
+      "Secondary-Red-200": { "hex": "#ee9c9e" },
+      "Secondary-Red-100": { "hex": "#feced4" },
+      "Secondary-Red-50":  { "hex": "#feebef" }
+    },
+    "secondary-amber": {
+      "Secondary-Amber-900": { "hex": "#f47103" },
+      "Secondary-Amber-800": { "hex": "#f58f08" },
+      "Secondary-Amber-700": { "hex": "#f59e0b", "main": true },
+      "Secondary-Amber-600": { "hex": "#f5b20f" },
+      "Secondary-Amber-500": { "hex": "#f5bf17" },
+      "Secondary-Amber-400": { "hex": "#f6c82e" },
+      "Secondary-Amber-300": { "hex": "#f7d352" },
+      "Secondary-Amber-200": { "hex": "#f9df83" },
+      "Secondary-Amber-100": { "hex": "#fbebb4" },
+      "Secondary-Amber-50":  { "hex": "#fdf8e1" }
+    },
+    "secondary-jade": {
+      "Secondary-Jade-900": { "hex": "#006703" },
+      "Secondary-Jade-800": { "hex": "#00871b" },
+      "Secondary-Jade-700": { "hex": "#009828" },
+      "Secondary-Jade-600": { "hex": "#00aa35" },
+      "Secondary-Jade-500": { "hex": "#00ba3e" },
+      "Secondary-Jade-400": { "hex": "#22c55e", "main": true },
+      "Secondary-Jade-300": { "hex": "#5cd07c" },
+      "Secondary-Jade-200": { "hex": "#91dda2" },
+      "Secondary-Jade-100": { "hex": "#beeac7" },
+      "Secondary-Jade-50":  { "hex": "#e4f7e8" }
+    },
+    "secondary-teal": {
+      "Secondary-Teal-900": { "hex": "#005b6c" },
+      "Secondary-Teal-800": { "hex": "#007d99" },
+      "Secondary-Teal-700": { "hex": "#0891b2", "main": true },
+      "Secondary-Teal-600": { "hex": "#19a4cd" },
+      "Secondary-Teal-500": { "hex": "#21b4e1" },
+      "Secondary-Teal-400": { "hex": "#30bee8" },
+      "Secondary-Teal-300": { "hex": "#52c9ef" },
+      "Secondary-Teal-200": { "hex": "#83d9f6" },
+      "Secondary-Teal-100": { "hex": "#b4e7fa" },
+      "Secondary-Teal-50":  { "hex": "#e1f5fe" }
+    },
+    "secondary-purple": {
+      "Secondary-Purple-900": { "hex": "#1c1cce" },
+      "Secondary-Purple-800": { "hex": "#4028dd" },
+      "Secondary-Purple-700": { "hex": "#532fe3" },
+      "Secondary-Purple-600": { "hex": "#6537ec" },
+      "Secondary-Purple-500": { "hex": "#713cf3" },
+      "Secondary-Purple-400": { "hex": "#8b5cf6", "main": true },
+      "Secondary-Purple-300": { "hex": "#a27bf8" },
+      "Secondary-Purple-200": { "hex": "#bea3fa" },
+      "Secondary-Purple-100": { "hex": "#d8c8fb" },
+      "Secondary-Purple-50":  { "hex": "#f0e9fd" }
+    }
+  }
+}
