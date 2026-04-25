@@ -8,6 +8,14 @@ Additive Force brand assets. Single source of truth for logo, color, and typogra
 
 ## Accessing assets
 
+**Logos:**
+
+```
+https://raw.githubusercontent.com/additiveforce/af-brand/main/logos/[filename]
+```
+
+**Color and typography:**
+
 ```
 https://raw.githubusercontent.com/additiveforce/af-brand/main/[filename]
 ```
@@ -26,9 +34,9 @@ Three formats × three colors = nine files.
 | `AF-Logo-Stacked-Charcoal.svg` | Compact horizontal space. Light backgrounds. |
 | `AF-Logo-Stacked-Primary_Blue.svg` | Compact horizontal space. Accent use. |
 | `AF-Logo-Stacked-White.svg` | Compact horizontal space. Dark backgrounds. |
-| `AF-Icon-Charcoal.svg` | Icon mark only. Light backgrounds. |
-| `AF-Icon-Primary_Blue.svg` | Icon mark only. Accent use. |
-| `AF-Icon-White.svg` | Icon mark only. Dark backgrounds. |
+| `AF-Logo-Icon-Charcoal.svg` | Icon mark only. Light backgrounds. |
+| `AF-Logo-Icon-Primary_Blue.svg` | Icon mark only. Accent use. |
+| `AF-Logo-Icon-White.svg` | Icon mark only. Dark backgrounds. |
 
 **Usage rules:**
 - Never recolor the AF logo programmatically
@@ -67,7 +75,7 @@ Each palette runs 50–900. Fetch the full JSON for all values.
 
 ## Typography
 
-**File:** `af-typography.md`
+**File:** `https://raw.githubusercontent.com/additiveforce/af-brand/main/af-typography.md`
 
 Three typefaces. No others.
 
