@@ -14,7 +14,7 @@ Additive Force brand assets. Single source of truth for logo, color, and typogra
 https://raw.githubusercontent.com/additiveforce/af-brand/main/logos/[filename]
 ```
 
-**Color and typography:**
+**Color, PowerPoint slide canvas values, and typography:**
 
 ```
 https://raw.githubusercontent.com/additiveforce/af-brand/main/[filename]
@@ -97,6 +97,28 @@ Pure White · Deep Indigo · Gallery White · Charcoal · Primary Blue · Classi
 | Violet | Violet-PPT | `#8B5CF6` |
 
 Each palette has T80, T60, T40, S40, S80 tint/shade stops. Fetch the full JSON for all values.
+
+---
+
+## Slide canvas — PowerPoint
+
+**File:** `af-slide-canvas-values.json`
+
+**Scope:** PowerPoint outputs only. Dimensional values and coordinates for all AF PPTX files. Use alongside `af-slide-canvas.md` in the PPT skill references folder, which contains layout logic and composition rules.
+
+### What's in the file
+
+| Section | Contents |
+|---------|----------|
+| Canvas | Width, height in cm and EMU. Aspect ratio. |
+| Grid | Column and row counts, cell dimensions in cm and EMU. |
+| Spacing | 0.5x, 1x, 2x multiples in cm and EMU. |
+| Layouts | Coordinates for all four layout variants (1/4, 1/3, 1/2, Full). |
+| Fixed elements | Logo and slide number positions and color tokens. |
+| Borders | Weight, color token, style. |
+| Special slides | Full positional and typographic spec for cover front, chapter unnumbered, chapter numbered, and cover back. |
+
+Fetch the full JSON for all values. EMU conversion: 1 cm = 360,000 EMU.
 
 ---
 
