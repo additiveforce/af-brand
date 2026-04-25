@@ -1,0 +1,265 @@
+{
+  "meta": {
+    "name": "AF Slide Canvas — Values",
+    "document_id": "af-slide-canvas-values",
+    "version": "2026",
+    "last_reviewed": "2026-Q1",
+    "scope": "Dimensional values, coordinates, and spacing constants for all AF PPTX files. Use alongside af-slide-canvas.md which contains layout logic, composition rules, and judgment guidance.",
+    "emu_conversion": "1 cm = 360000 EMU"
+  },
+  "canvas": {
+    "format": "PowerPoint Widescreen",
+    "width_cm": 33.87,
+    "height_cm": 19.05,
+    "width_emu": 12192000,
+    "height_emu": 6858000,
+    "aspect_ratio": "16:9"
+  },
+  "grid": {
+    "columns": 32,
+    "rows": 18,
+    "gutters": "none",
+    "cell_width_cm": 1.059,
+    "cell_height_cm": 1.058,
+    "cell_width_emu": 381240,
+    "cell_height_emu": 380880,
+    "note": "Cells are approximately square. 1x spacing is consistent in both axes."
+  },
+  "coordinate_system": {
+    "horizontal": {
+      "range": "1 to 33",
+      "direction": "left to right",
+      "origin": "grid line 1 = left canvas edge",
+      "terminus": "grid line 33 = right canvas edge"
+    },
+    "vertical": {
+      "range": "A to S",
+      "direction": "top to bottom",
+      "origin": "grid line A = top canvas edge",
+      "terminus": "grid line S = bottom canvas edge"
+    },
+    "notation": "column,row — e.g. 3,C. Range written as start → end — e.g. 3,C → 31,Q."
+  },
+  "margins": {
+    "default_cells": 2,
+    "content_area": "3,C → 31,Q"
+  },
+  "spacing": {
+    "unit": "1x = one grid cell ≈ 1.059 cm",
+    "multiples": {
+      "0.5x": {
+        "cm": 0.530,
+        "emu": 190800,
+        "use": "Tight grouping — objects that form a single composite unit"
+      },
+      "1x": {
+        "cm": 1.059,
+        "emu": 381240,
+        "use": "Default — separation between independent objects or sub-zones"
+      },
+      "2x": {
+        "cm": 2.118,
+        "emu": 762480,
+        "use": "Deliberate isolation — hero objects, intentional whitespace, hierarchy signalling"
+      }
+    }
+  },
+  "layouts": {
+    "gutter": "1 cell minimum between text area and visual area. Always preserved.",
+    "variants": {
+      "quarter": {
+        "label": "1/4 — Large visual, minimal text",
+        "best_for": "Full-bleed visual evidence, single dominant chart, image-led slides",
+        "text_area": "3,C → 10,Q",
+        "visual_area": "11,C → 31,Q"
+      },
+      "third": {
+        "label": "1/3 — Default",
+        "best_for": "Standard slides with supporting visual evidence",
+        "text_area": "3,C → 12,Q",
+        "visual_area": "13,C → 31,Q"
+      },
+      "half": {
+        "label": "1/2 — Equal text and visual",
+        "best_for": "Slides with substantial text and supporting visual of equal weight",
+        "text_area": "3,C → 16,Q",
+        "visual_area": "17,C → 31,Q"
+      },
+      "full": {
+        "label": "Full — Text only",
+        "best_for": "High-impact statements, section openers, long-form argument slides with no visual",
+        "text_area": "3,C → 31,Q",
+        "visual_area": null
+      }
+    }
+  },
+  "fixed_elements": {
+    "logo_content_pages": {
+      "element": "AF-Logo-Icon",
+      "left_edge_column": 3,
+      "bottom_edge_row": "B",
+      "height": "0.5x",
+      "color_light_theme": { "token": "Deep-Indigo-PPT", "hex": "#1C1B2A" },
+      "color_dark_theme": { "token": "Primary-Blue-PPT", "hex": "#2563EB" }
+    },
+    "logo_cover_slides": {
+      "element": "AF-Logo-Horizontal",
+      "position": "3,A → 8,B",
+      "color": { "token": "Primary-Blue-PPT", "hex": "#2563EB" }
+    },
+    "slide_number": {
+      "position": "2,M",
+      "alignment_vertical": "top",
+      "alignment_horizontal": "right",
+      "font": "IBM Plex Mono",
+      "size_pt": 6,
+      "color_light_theme": { "token": "Deep-Indigo-PPT", "hex": "#1C1B2A" },
+      "color_dark_theme": { "token": "Pure-White-PPT-T60", "hex": "#D9D9D9" },
+      "shown_on_cover": false
+    }
+  },
+  "borders": {
+    "weight_pt": 0.25,
+    "color": { "token": "Deep-Indigo-PPT-T40", "hex": "#7B78AA" },
+    "style": "solid",
+    "default": "off",
+    "use": "When revealing structure aids comprehension. Never decorative."
+  },
+  "text_box_padding": {
+    "internal_padding_pt": 0,
+    "note": "All standard text boxes: 0pt internal padding on all sides. Spacing controlled entirely by coordinate positioning.",
+    "exception": "Table cells and card components retain generous internal padding as defined in af-slide-style."
+  },
+  "special_slides": {
+    "cover_front": {
+      "theme": "dark",
+      "slide_number": false,
+      "background": { "token": "Deep-Indigo-PPT", "hex": "#1C1B2A" },
+      "logo": {
+        "element": "AF-Logo-Horizontal",
+        "position": "3,A → 8,B",
+        "color": { "token": "Primary-Blue-PPT", "hex": "#2563EB" }
+      },
+      "accent_line": {
+        "position": "3,O → 14,O",
+        "weight_pt": 6,
+        "color": { "token": "Primary-Blue-PPT", "hex": "#2563EB" }
+      },
+      "title": {
+        "position": "3,E → 31,M",
+        "font": "Poppins Bold",
+        "size_pt_range": "64–80",
+        "line_height": 1.0,
+        "color": { "token": "Pure-White-PPT", "hex": "#FFFFFF" },
+        "case": "sentence",
+        "alignment_vertical": "middle",
+        "alignment_horizontal": "left"
+      },
+      "project_descriptor": {
+        "position": "3,P → 14,R",
+        "font": "IBM Plex Mono",
+        "size_pt": 12,
+        "case": "uppercase",
+        "character_spacing": "loose",
+        "color": { "token": "Deep-Indigo-PPT-T40", "hex": "#7B78AA" },
+        "line_1": "PROJECT — Bold",
+        "line_2": "Semantic project category — Regular"
+      },
+      "date": {
+        "position": "16,P → 23,R",
+        "font": "IBM Plex Mono",
+        "size_pt": 12,
+        "case": "uppercase",
+        "character_spacing": "loose",
+        "color": { "token": "Deep-Indigo-PPT-T40", "hex": "#7B78AA" },
+        "line_1": "DATE — Bold",
+        "line_2": "YYYY/MM/DD — Regular"
+      },
+      "client_logo_placeholder": {
+        "position": "25,P → 31,R",
+        "fill": { "token": "Deep-Indigo-PPT-S80", "hex": "#2E2C46" },
+        "label": "INSERT CLIENT LOGO HERE",
+        "label_font": "IBM Plex Mono",
+        "label_alignment": "centre",
+        "label_color": { "token": "Deep-Indigo-PPT-T40", "hex": "#7B78AA" }
+      }
+    },
+    "chapter_unnumbered": {
+      "theme": "blue",
+      "slide_number": true,
+      "background": { "token": "Primary-Blue-PPT", "hex": "#2563EB", "bleed": "full canvas" },
+      "logo": {
+        "element": "AF-Logo-Icon",
+        "position": "3,A → 4,B",
+        "color": { "token": "Deep-Indigo-PPT", "hex": "#1C1B2A" }
+      },
+      "chapter_title": {
+        "layout": "full",
+        "position": "3,C → 31,Q",
+        "font": "Poppins Bold",
+        "size_pt": 36,
+        "case": "sentence",
+        "color": { "token": "Pure-White-PPT", "hex": "#FFFFFF" },
+        "alignment_vertical": "middle",
+        "alignment_horizontal": "left"
+      },
+      "slide_number_color": { "token": "Pure-White-PPT-T60", "hex": "#D9D9D9" }
+    },
+    "chapter_numbered": {
+      "theme": "dark",
+      "slide_number": true,
+      "background": { "token": "Deep-Indigo-PPT", "hex": "#1C1B2A" },
+      "logo": {
+        "element": "AF-Logo-Icon",
+        "position": "3,A → 4,B",
+        "color": { "token": "Primary-Blue-PPT", "hex": "#2563EB" }
+      },
+      "chapter_number": {
+        "font": "Poppins Bold",
+        "size_pt": 582,
+        "color": { "token": "Primary-Blue-PPT", "hex": "#2563EB" },
+        "right_edge_column": 32,
+        "alignment_vertical": "centre",
+        "alignment_horizontal": "right",
+        "format": "leading zero — 01, 02, 03",
+        "note": "Text box bleeds beyond canvas edges intentionally. Right edge at column 32 is the reliable anchor. Character should have approximately 2x clear space top and bottom against canvas."
+      },
+      "chapter_title": {
+        "layout": "full",
+        "position": "3,C → 31,Q",
+        "font": "Poppins Bold",
+        "size_pt": 60,
+        "case": "sentence",
+        "color": { "token": "Pure-White-PPT", "hex": "#FFFFFF" },
+        "alignment_vertical": "middle",
+        "alignment_horizontal": "left"
+      },
+      "slide_number_color": { "token": "Pure-White-PPT-T60", "hex": "#D9D9D9" }
+    },
+    "cover_back": {
+      "theme": "dark",
+      "slide_number": false,
+      "background": { "token": "Deep-Indigo-PPT", "hex": "#1C1B2A", "bleed": "full canvas" },
+      "composition": {
+        "rule": "Fill canvas with one or more Primary Blue geometric shapes. Form varies — polygon, circle, rectangle, diagonal slash. May bleed off any canvas edge. No fixed coverage rule.",
+        "constraint": "Colour zone integrity — every element (logo and URL) must sit entirely within a single colour zone. Nothing straddles the boundary between Deep Indigo and Primary Blue.",
+        "shapes_color": { "token": "Primary-Blue-PPT", "hex": "#2563EB" }
+      },
+      "logo": {
+        "element": "AF-Logo-Horizontal",
+        "color": { "token": "Pure-White-PPT", "hex": "#FFFFFF" },
+        "position": "Within a single colour zone",
+        "size": "Proportional — approximately 3–4 grid cells tall"
+      },
+      "url": {
+        "text": "ADDITIVEFORCE.COM",
+        "font": "IBM Plex Mono",
+        "size_pt": 10,
+        "case": "uppercase",
+        "character_spacing": "loose",
+        "color": { "token": "Pure-White-PPT", "hex": "#FFFFFF" },
+        "position": "Within a single colour zone — does not need to match logo zone"
+      }
+    }
+  }
+}
