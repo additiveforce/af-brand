@@ -175,12 +175,6 @@ Brand rules, voice, and design standards. Fetch any file at runtime via the raw 
 | `af-design-gestalt-principles.md` | Gestalt principles applied to AF design decisions |
 | `af-design-ui-craft.md` | UI craft standards — spacing, hierarchy, component behaviour |
 
-### Claude behavioral contract
-
-| File | Contents |
-|------|----------|
-| `af-claude-employment-contract.md` | Behavioral standards for Claude acting as an AF agent — tone, scope, escalation |
-
 ---
 
 ## Updating brand assets
