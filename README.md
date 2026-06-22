@@ -1,6 +1,6 @@
 # AF Brand
 
-Additive Force brand assets. Single source of truth for logo, color, and typography. All assets are fetched at runtime — any update to this repo is immediately live.
+Additive Force brand assets and brand guidance. Single source of truth for logo, color, typography, copy voice, and design standards. All assets and docs are fetched at runtime — any update to this repo is immediately live.
 
 **Repository:** `https://github.com/additiveforce/af-brand`
 
@@ -14,7 +14,7 @@ Additive Force brand assets. Single source of truth for logo, color, and typogra
 https://raw.githubusercontent.com/additiveforce/af-brand/main/logos/[filename]
 ```
 
-**Color, PowerPoint slide canvas values, and typography:**
+**Color, PowerPoint slide canvas values, typography, and guidance docs:**
 
 ```
 https://raw.githubusercontent.com/additiveforce/af-brand/main/[filename]
@@ -45,6 +45,8 @@ Three formats × three colors = nine files.
 - Never use the White logo on a light background — use Charcoal
 - Minimum clear space equal to the height of the AF letterform on all sides
 
+See `af-logo.md` for full usage rules.
+
 ---
 
 ## Color system
@@ -70,6 +72,8 @@ Three formats × three colors = nine files.
 Each palette runs 50–900. Fetch the full JSON for all values.
 
 **Note:** Deep-Indigo-950 (`#13131f`) is website only — for contrast between adjacent dark sections. Not for use in presentations or other brand materials.
+
+See `af-color-system.md` for usage rules and application guidance.
 
 ## Color system — PowerPoint
 
@@ -124,7 +128,7 @@ Fetch the full JSON for all values. EMU conversion: 1 cm = 360,000 EMU.
 
 ## Typography
 
-**File:** `https://raw.githubusercontent.com/additiveforce/af-brand/main/af-typography.md`
+**File:** `af-typography.md`
 
 Three typefaces. No others.
 
@@ -140,6 +144,42 @@ Three typefaces. No others.
 - No inline emphasis — no bolding or italicising within body copy
 - Body text: 55–65 characters per line maximum
 - Fetch the full file for hierarchy logic, role definitions, and weight discipline
+
+---
+
+## Guidance documents
+
+Brand rules, voice, and design standards. Fetch any file at runtime via the raw URL pattern above.
+
+### Brand identity
+
+| File | Contents |
+|------|----------|
+| `af-logo.md` | Logo selection rules, clear space, do-nots, background pairing |
+| `af-color-system.md` | Color usage rules and application guidance for non-PPT outputs |
+| `af-icons.md` | How to fetch and use AF icons; links to the af-icons repo |
+
+### Copy and voice
+
+| File | Contents |
+|------|----------|
+| `af-copy-tov.md` | Tone of voice — personality, language principles, do-nots |
+| `af-copy-llm-writing-quality-skill.md` | LLM writing quality standards — structure, precision, sentence craft |
+
+### Design
+
+| File | Contents |
+|------|----------|
+| `af-design-principles.md` | Core design principles that govern all AF visual outputs |
+| `af-design-charts.md` | Chart and data visualisation standards — type selection, labels, color use |
+| `af-design-gestalt-principles.md` | Gestalt principles applied to AF design decisions |
+| `af-design-ui-craft.md` | UI craft standards — spacing, hierarchy, component behaviour |
+
+### Claude behavioral contract
+
+| File | Contents |
+|------|----------|
+| `af-claude-employment-contract.md` | Behavioral standards for Claude acting as an AF agent — tone, scope, escalation |
 
 ---
 
