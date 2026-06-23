@@ -159,12 +159,6 @@ Brand rules, voice, and design standards. Fetch any file at runtime via the raw 
 | `af-color-system.md` | Color usage rules and application guidance for non-PPT outputs |
 | `af-icons.md` | How to fetch and use AF icons; links to the af-icons repo |
 
-### Copy and voice
-
-| File | Contents |
-|------|----------|
-| `af-copy-tov.md` | Tone of voice — personality, language principles, do-nots |
-| `af-copy-llm-writing-quality-skill.md` | LLM writing quality standards — structure, precision, sentence craft |
 
 ### Design
 
