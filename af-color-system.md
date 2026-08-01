@@ -51,7 +51,11 @@ https://raw.githubusercontent.com/additiveforce/af-brand/main/af-color-system.js
 
 Each palette runs 50–900. Fetch the full JSON for all values.
 
-**Note:** Deep-Indigo-950 (`#13131f`) is website only — for contrast between adjacent dark sections. Not for use in presentations or other brand materials.
+**Note:** Deep-Indigo-950 (`#13131f`) is the **primary dark web surface**; Deep-Indigo-900 (`#1c1b2b`) is the raised/adjacent panel. Web only — not for presentations or other brand materials.
+
+**Primary blue on dark:** On dark backgrounds, Primary Blue is a **large-text / UI accent only** — headlines, large figures, icons. Not for body text or small labels: Primary-Blue-800 cannot reach 4.5:1 contrast on any dark background (it caps at ~4.06:1 on black), so small blue text on dark is physically unreachable; 3:1 for large/UI is the bar. Small text on dark uses white or a light Deep-Indigo tint.
+
+Primary Blue extends to darker shades **1000–1300** (see `af-color-system.json`) for deep UI surfaces.
 
 ---
 

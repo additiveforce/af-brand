@@ -24,7 +24,7 @@
       "Charcoal-50":  { "hex": "#fafafa", "main": true }
     },
     "deep-indigo": {
-      "Deep-Indigo-950": { "hex": "#13131f", "note": "Website only — contrast between adjacent dark sections. Not for use in presentations or other brand materials." },
+      "Deep-Indigo-950": { "hex": "#13131f", "note": "Primary dark web surface. Deep-Indigo-900 is the raised/adjacent panel. Web only — not for presentations or other brand materials." },
       "Deep-Indigo-900": { "hex": "#1c1b2b", "main": true },
       "Deep-Indigo-800": { "hex": "#3d3b4d" },
       "Deep-Indigo-700": { "hex": "#5c5a6d" },
@@ -37,6 +37,10 @@
       "Deep-Indigo-50":  { "hex": "#faf7ff" }
     },
     "primary-blue": {
+      "Primary-Blue-1300": { "hex": "#09093e" },
+      "Primary-Blue-1200": { "hex": "#101260" },
+      "Primary-Blue-1100": { "hex": "#181f86" },
+      "Primary-Blue-1000": { "hex": "#212fab" },
       "Primary-Blue-900": { "hex": "#2c41cc" },
       "Primary-Blue-800": { "hex": "#2563eb", "main": true },
       "Primary-Blue-700": { "hex": "#1d76fe" },

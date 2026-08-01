@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "name": "AF Typography",
+    "version": "2026",
+    "scope": "Typeface roles + role→colour/case mappings. Concrete SIZES are defined in artefact-specific files, not here."
+  },
+  "typefaces": {
+    "display": { "family": "Poppins",        "weights": [700],      "case": "sentence", "usedFor": "headlines, titles, subheadings, accent lines" },
+    "body":    { "family": "IBM Plex Serif",  "weights": [300, 400], "case": "sentence", "usedFor": "narrative prose (300 general, 400 sustained article reading)" },
+    "mono":    { "family": "IBM Plex Mono",   "weights": [400, 500], "case": "uppercase for labels/eyebrows; sentence for descriptive data", "usedFor": "data, labels, eyebrows, captions, annotations" }
+  },
+  "roles": {
+    "eyebrow":    { "typeface": "mono",    "case": "uppercase", "tracking": "loose", "color": "Primary-Blue-800" },
+    "headline":   { "typeface": "display", "case": "sentence",  "color": "Deep-Indigo-900", "accentColor": "Primary-Blue-800" },
+    "accentLine": { "typeface": "display", "case": "sentence",  "color": "Primary-Blue-800" },
+    "subheading": { "typeface": "display", "case": "sentence",  "color": "Primary-Blue-800", "colorOnDark": "Pure-White" },
+    "body":       { "typeface": "body",    "weight": 300, "case": "sentence", "color": "Deep-Indigo-900", "colorOnDark": "light Deep-Indigo tint" },
+    "bodyProse":  { "typeface": "body",    "weight": 400, "case": "sentence", "color": "Deep-Indigo-900" },
+    "data":       { "typeface": "mono",    "case": "uppercase for labels" }
+  }
+}
