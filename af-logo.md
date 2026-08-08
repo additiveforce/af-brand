@@ -50,6 +50,7 @@ https://raw.githubusercontent.com/additiveforce/af-brand/main/logos/[filename]
 | `AF-Logo-Icon-Charcoal.svg` | Icon mark only | Light backgrounds. |
 | `AF-Logo-Icon-Primary_Blue.svg` | Icon mark only | Accent use. |
 | `AF-Logo-Icon-White.svg` | Icon mark only | Dark backgrounds. |
+| `af-logo-small-space.svg` | Resized for small space applications. Light backgrounds. |
 
 ---
 
