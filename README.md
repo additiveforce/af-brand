@@ -24,7 +24,7 @@ https://raw.githubusercontent.com/additiveforce/af-brand/main/[filename]
 
 ## Logo
 
-Three formats × three colors = nine files.
+Three formats × three colors + one small space variant = ten files.
 
 | File | Use |
 |------|-----|
@@ -37,6 +37,7 @@ Three formats × three colors = nine files.
 | `AF-Logo-Icon-Charcoal.svg` | Icon mark only. Light backgrounds. |
 | `AF-Logo-Icon-Primary_Blue.svg` | Icon mark only. Accent use. |
 | `AF-Logo-Icon-White.svg` | Icon mark only. Dark backgrounds. |
+| `af-logo-small-space.svg` | Horizontal logo with adjusted icon to wordmark proportions for small size output. |
 
 **Usage rules:**
 - Never recolor the AF logo programmatically
