@@ -1,116 +1,470 @@
 {
   "meta": {
     "name": "AF Color System",
-    "document_id": "af-color-system",
-    "version": "2026",
-    "last_reviewed": "2026-Q1",
-    "scope": "All non-PPT outputs — web, documents, reports. Do not apply to PowerPoint. Use af-color-system-ppt for PPTX work."
+    "version": "2.0",
+    "scope": "Every AF output. Charcoal type on white by default; screen blue is the one accent; full screen colours are grounds."
   },
   "colors": {
     "pures": {
-      "Pure-White": { "hex": "#ffffff" },
-      "Pure-Black": { "hex": "#000000" }
+      "White": {
+        "hex": "#ffffff"
+      },
+      "Black": {
+        "hex": "#000000"
+      }
     },
     "charcoal": {
-      "Charcoal-900": { "hex": "#202020", "main": true },
-      "Charcoal-800": { "hex": "#414141" },
-      "Charcoal-700": { "hex": "#606060" },
-      "Charcoal-600": { "hex": "#747474" },
-      "Charcoal-500": { "hex": "#9d9d9d" },
-      "Charcoal-400": { "hex": "#bcbcbc" },
-      "Charcoal-300": { "hex": "#dfdfdf" },
-      "Charcoal-200": { "hex": "#ededed" },
-      "Charcoal-100": { "hex": "#f5f5f5" },
-      "Charcoal-50":  { "hex": "#fafafa", "main": true }
+      "Charcoal-900": {
+        "hex": "#202020"
+      },
+      "Charcoal-800": {
+        "hex": "#414141"
+      },
+      "Charcoal-700": {
+        "hex": "#606060"
+      },
+      "Charcoal-600": {
+        "hex": "#747474"
+      },
+      "Charcoal-500": {
+        "hex": "#9d9d9d"
+      },
+      "Charcoal-400": {
+        "hex": "#bcbcbc"
+      },
+      "Charcoal-300": {
+        "hex": "#dfdfdf"
+      },
+      "Charcoal-200": {
+        "hex": "#ededed"
+      },
+      "Charcoal-100": {
+        "hex": "#f5f5f5"
+      },
+      "Charcoal-50": {
+        "hex": "#fafafa"
+      }
     },
-    "deep-indigo": {
-      "Deep-Indigo-950": { "hex": "#13131f", "note": "Primary dark web surface. Deep-Indigo-900 is the raised/adjacent panel. Web only — not for presentations or other brand materials." },
-      "Deep-Indigo-900": { "hex": "#1c1b2b", "main": true },
-      "Deep-Indigo-800": { "hex": "#3d3b4d" },
-      "Deep-Indigo-700": { "hex": "#5c5a6d" },
-      "Deep-Indigo-600": { "hex": "#706d81" },
-      "Deep-Indigo-500": { "hex": "#9896ab" },
-      "Deep-Indigo-400": { "hex": "#b8b5cb" },
-      "Deep-Indigo-300": { "hex": "#dcd9ef" },
-      "Deep-Indigo-200": { "hex": "#ebe8ff" },
-      "Deep-Indigo-100": { "hex": "#f4f1ff" },
-      "Deep-Indigo-50":  { "hex": "#faf7ff" }
+    "screen": {
+      "Screen-Blue": {
+        "hex": "#005cff",
+        "note": "Deep ground. Also the ink on white: links, accents, AF on white. White 5.3, black 3.1"
+      },
+      "Screen-Red": {
+        "hex": "#ed0037",
+        "note": "Deep ground. White 4.5, black 3.6"
+      },
+      "Screen-Jade": {
+        "hex": "#04ac4d",
+        "note": "White 3.0, black 5.4"
+      },
+      "Screen-Teal": {
+        "hex": "#078aa9",
+        "note": "White 4.0, black 4.0"
+      },
+      "Screen-Purple": {
+        "hex": "#8e60fa",
+        "note": "White 4.0, black 4.0"
+      },
+      "Screen-Bronze": {
+        "hex": "#c77434",
+        "note": "Warm bronze. Takes the yellow slot. White 3.5, black 4.6"
+      }
     },
-    "primary-blue": {
-      "Primary-Blue-1300": { "hex": "#09093e" },
-      "Primary-Blue-1200": { "hex": "#101260" },
-      "Primary-Blue-1100": { "hex": "#181f86" },
-      "Primary-Blue-1000": { "hex": "#212fab" },
-      "Primary-Blue-900": { "hex": "#2c41cc" },
-      "Primary-Blue-800": { "hex": "#2563eb", "main": true },
-      "Primary-Blue-700": { "hex": "#1d76fe" },
-      "Primary-Blue-600": { "hex": "#098aff" },
-      "Primary-Blue-500": { "hex": "#0099ff" },
-      "Primary-Blue-400": { "hex": "#27a9ff" },
-      "Primary-Blue-300": { "hex": "#58b9ff" },
-      "Primary-Blue-200": { "hex": "#8dceff" },
-      "Primary-Blue-100": { "hex": "#bbe0ff" },
-      "Primary-Blue-50":  { "hex": "#e3f3ff" }
+    "blue": {
+      "Blue-950": {
+        "hex": "#001246",
+        "note": "Ramp step 950. White 17.9, charcoal 1.1"
+      },
+      "Blue-900": {
+        "hex": "#001d61",
+        "note": "Ramp step 900. White 15.6, charcoal 1.0"
+      },
+      "Blue-800": {
+        "hex": "#002c86",
+        "note": "Ramp step 800. White 12.3, charcoal 1.3"
+      },
+      "Blue-700": {
+        "hex": "#003bad",
+        "note": "Ramp step 700. White 9.4, charcoal 1.7"
+      },
+      "Blue-600": {
+        "hex": "#004bd5",
+        "note": "Ramp step 600. White 7.1, charcoal 2.3"
+      },
+      "Blue-500": {
+        "hex": "#005cff",
+        "note": "Main"
+      },
+      "Blue-400": {
+        "hex": "#679cff",
+        "note": "Chart secondary"
+      },
+      "Blue-300": {
+        "hex": "#9abeff"
+      },
+      "Blue-200": {
+        "hex": "#c8dcff",
+        "note": "Chart negative"
+      },
+      "Blue-100": {
+        "hex": "#e6effe",
+        "note": "Chart tint"
+      },
+      "Blue-50": {
+        "hex": "#f0f5ff",
+        "note": "Ramp step 50. White 1.1, charcoal 14.9"
+      }
     },
-    "secondary-red": {
-      "Secondary-Red-900": { "hex": "#b62425" },
-      "Secondary-Red-800": { "hex": "#c62e31" },
-      "Secondary-Red-700": { "hex": "#d33538" },
-      "Secondary-Red-600": { "hex": "#e53e3e", "main": true },
-      "Secondary-Red-500": { "hex": "#f4473f" },
-      "Secondary-Red-400": { "hex": "#ef5758" },
-      "Secondary-Red-300": { "hex": "#e47679" },
-      "Secondary-Red-200": { "hex": "#ee9c9e" },
-      "Secondary-Red-100": { "hex": "#feced4" },
-      "Secondary-Red-50":  { "hex": "#feebef" }
+    "red": {
+      "Red-950": {
+        "hex": "#3b0006",
+        "note": "Ramp step 950. White 17.7, charcoal 1.1"
+      },
+      "Red-900": {
+        "hex": "#55000d",
+        "note": "Ramp step 900. White 15.1, charcoal 1.1"
+      },
+      "Red-800": {
+        "hex": "#780017",
+        "note": "Ramp step 800. White 11.6, charcoal 1.4"
+      },
+      "Red-700": {
+        "hex": "#9d0021",
+        "note": "Ramp step 700. White 8.6, charcoal 1.9"
+      },
+      "Red-600": {
+        "hex": "#c4002c",
+        "note": "Ramp step 600. White 6.2, charcoal 2.6"
+      },
+      "Red-500": {
+        "hex": "#ed0037",
+        "note": "Main"
+      },
+      "Red-400": {
+        "hex": "#ff696d",
+        "note": "Ramp step 400. White 2.8, charcoal 5.8"
+      },
+      "Red-300": {
+        "hex": "#ffa09d",
+        "note": "Ramp step 300. White 2.0, charcoal 8.4"
+      },
+      "Red-200": {
+        "hex": "#ffc8c5",
+        "note": "Ramp step 200. White 1.5, charcoal 11.1"
+      },
+      "Red-100": {
+        "hex": "#ffe4e2",
+        "note": "Ramp step 100. White 1.2, charcoal 13.5"
+      },
+      "Red-50": {
+        "hex": "#fff1f1",
+        "note": "Ramp step 50. White 1.1, charcoal 14.8"
+      }
     },
-    "secondary-amber": {
-      "Secondary-Amber-900": { "hex": "#f47103" },
-      "Secondary-Amber-800": { "hex": "#f58f08" },
-      "Secondary-Amber-700": { "hex": "#f59e0b", "main": true },
-      "Secondary-Amber-600": { "hex": "#f5b20f" },
-      "Secondary-Amber-500": { "hex": "#f5bf17" },
-      "Secondary-Amber-400": { "hex": "#f6c82e" },
-      "Secondary-Amber-300": { "hex": "#f7d352" },
-      "Secondary-Amber-200": { "hex": "#f9df83" },
-      "Secondary-Amber-100": { "hex": "#fbebb4" },
-      "Secondary-Amber-50":  { "hex": "#fdf8e1" }
+    "jade": {
+      "Jade-950": {
+        "hex": "#00240a",
+        "note": "Ramp step 950. White 16.7, charcoal 1.0"
+      },
+      "Jade-900": {
+        "hex": "#003814",
+        "note": "Ramp step 900. White 13.3, charcoal 1.2"
+      },
+      "Jade-800": {
+        "hex": "#005321",
+        "note": "Ramp step 800. White 9.3, charcoal 1.8"
+      },
+      "Jade-700": {
+        "hex": "#006f2f",
+        "note": "Ramp step 700. White 6.3, charcoal 2.6"
+      },
+      "Jade-600": {
+        "hex": "#008d3d",
+        "note": "Ramp step 600. White 4.3, charcoal 3.8"
+      },
+      "Jade-500": {
+        "hex": "#04ac4d",
+        "note": "Main"
+      },
+      "Jade-400": {
+        "hex": "#4dbc6a",
+        "note": "Ramp step 400. White 2.4, charcoal 6.8"
+      },
+      "Jade-300": {
+        "hex": "#82d493",
+        "note": "Ramp step 300. White 1.8, charcoal 9.1"
+      },
+      "Jade-200": {
+        "hex": "#b2e7bb",
+        "note": "Ramp step 200. White 1.4, charcoal 11.7"
+      },
+      "Jade-100": {
+        "hex": "#d7f4db",
+        "note": "Ramp step 100. White 1.2, charcoal 13.9"
+      },
+      "Jade-50": {
+        "hex": "#ecfaed",
+        "note": "Ramp step 50. White 1.1, charcoal 15.1"
+      }
     },
-    "secondary-jade": {
-      "Secondary-Jade-900": { "hex": "#006703" },
-      "Secondary-Jade-800": { "hex": "#00871b" },
-      "Secondary-Jade-700": { "hex": "#009828" },
-      "Secondary-Jade-600": { "hex": "#00aa35" },
-      "Secondary-Jade-500": { "hex": "#00ba3e" },
-      "Secondary-Jade-400": { "hex": "#22c55e", "main": true },
-      "Secondary-Jade-300": { "hex": "#5cd07c" },
-      "Secondary-Jade-200": { "hex": "#91dda2" },
-      "Secondary-Jade-100": { "hex": "#beeac7" },
-      "Secondary-Jade-50":  { "hex": "#e4f7e8" }
+    "teal": {
+      "Teal-950": {
+        "hex": "#001f28",
+        "note": "Ramp step 950. White 17.1, charcoal 1.1"
+      },
+      "Teal-900": {
+        "hex": "#002e3b",
+        "note": "Ramp step 900. White 14.4, charcoal 1.1"
+      },
+      "Teal-800": {
+        "hex": "#004454",
+        "note": "Ramp step 800. White 10.7, charcoal 1.5"
+      },
+      "Teal-700": {
+        "hex": "#005a70",
+        "note": "Ramp step 700. White 7.8, charcoal 2.1"
+      },
+      "Teal-600": {
+        "hex": "#00728c",
+        "note": "Ramp step 600. White 5.5, charcoal 2.9"
+      },
+      "Teal-500": {
+        "hex": "#078aa9",
+        "note": "Main"
+      },
+      "Teal-400": {
+        "hex": "#59afca",
+        "note": "Ramp step 400. White 2.5, charcoal 6.5"
+      },
+      "Teal-300": {
+        "hex": "#88c9df",
+        "note": "Ramp step 300. White 1.8, charcoal 8.9"
+      },
+      "Teal-200": {
+        "hex": "#b6dfee",
+        "note": "Ramp step 200. White 1.4, charcoal 11.5"
+      },
+      "Teal-100": {
+        "hex": "#d9f0f8",
+        "note": "Ramp step 100. White 1.2, charcoal 13.8"
+      },
+      "Teal-50": {
+        "hex": "#ecf7fb",
+        "note": "Ramp step 50. White 1.1, charcoal 14.9"
+      }
     },
-    "secondary-teal": {
-      "Secondary-Teal-900": { "hex": "#005b6c" },
-      "Secondary-Teal-800": { "hex": "#007d99" },
-      "Secondary-Teal-700": { "hex": "#0891b2", "main": true },
-      "Secondary-Teal-600": { "hex": "#19a4cd" },
-      "Secondary-Teal-500": { "hex": "#21b4e1" },
-      "Secondary-Teal-400": { "hex": "#30bee8" },
-      "Secondary-Teal-300": { "hex": "#52c9ef" },
-      "Secondary-Teal-200": { "hex": "#83d9f6" },
-      "Secondary-Teal-100": { "hex": "#b4e7fa" },
-      "Secondary-Teal-50":  { "hex": "#e1f5fe" }
+    "purple": {
+      "Purple-950": {
+        "hex": "#200947",
+        "note": "Ramp step 950. White 17.6, charcoal 1.1"
+      },
+      "Purple-900": {
+        "hex": "#301562",
+        "note": "Ramp step 900. White 14.9, charcoal 1.1"
+      },
+      "Purple-800": {
+        "hex": "#462489",
+        "note": "Ramp step 800. White 11.2, charcoal 1.5"
+      },
+      "Purple-700": {
+        "hex": "#5e34b1",
+        "note": "Ramp step 700. White 8.1, charcoal 2.0"
+      },
+      "Purple-600": {
+        "hex": "#7648d8",
+        "note": "Ramp step 600. White 5.7, charcoal 2.9"
+      },
+      "Purple-500": {
+        "hex": "#8e60fa",
+        "note": "Main"
+      },
+      "Purple-400": {
+        "hex": "#a68aff",
+        "note": "Ramp step 400. White 2.7, charcoal 6.0"
+      },
+      "Purple-300": {
+        "hex": "#c0b0ff",
+        "note": "Ramp step 300. White 1.9, charcoal 8.5"
+      },
+      "Purple-200": {
+        "hex": "#d8d0ff",
+        "note": "Ramp step 200. White 1.5, charcoal 11.2"
+      },
+      "Purple-100": {
+        "hex": "#ebe8ff",
+        "note": "Ramp step 100. White 1.2, charcoal 13.6"
+      },
+      "Purple-50": {
+        "hex": "#f5f3ff",
+        "note": "Ramp step 50. White 1.1, charcoal 14.9"
+      }
     },
-    "secondary-purple": {
-      "Secondary-Purple-900": { "hex": "#1c1cce" },
-      "Secondary-Purple-800": { "hex": "#4028dd" },
-      "Secondary-Purple-700": { "hex": "#532fe3" },
-      "Secondary-Purple-600": { "hex": "#6537ec" },
-      "Secondary-Purple-500": { "hex": "#713cf3" },
-      "Secondary-Purple-400": { "hex": "#8b5cf6", "main": true },
-      "Secondary-Purple-300": { "hex": "#a27bf8" },
-      "Secondary-Purple-200": { "hex": "#bea3fa" },
-      "Secondary-Purple-100": { "hex": "#d8c8fb" },
-      "Secondary-Purple-50":  { "hex": "#f0e9fd" }
+    "bronze": {
+      "Bronze-950": {
+        "hex": "#301300",
+        "note": "Ramp step 950. White 17.2, charcoal 1.1"
+      },
+      "Bronze-900": {
+        "hex": "#472000",
+        "note": "Ramp step 900. White 14.2, charcoal 1.1"
+      },
+      "Bronze-800": {
+        "hex": "#673201",
+        "note": "Ramp step 800. White 10.3, charcoal 1.6"
+      },
+      "Bronze-700": {
+        "hex": "#88460a",
+        "note": "Ramp step 700. White 7.2, charcoal 2.3"
+      },
+      "Bronze-600": {
+        "hex": "#a85c1c",
+        "note": "Ramp step 600. White 5.0, charcoal 3.3"
+      },
+      "Bronze-500": {
+        "hex": "#c77434",
+        "note": "Main"
+      },
+      "Bronze-400": {
+        "hex": "#d78e5a",
+        "note": "Ramp step 400. White 2.7, charcoal 6.1"
+      },
+      "Bronze-300": {
+        "hex": "#ebaf87",
+        "note": "Ramp step 300. White 1.9, charcoal 8.5"
+      },
+      "Bronze-200": {
+        "hex": "#f7ceb3",
+        "note": "Ramp step 200. White 1.5, charcoal 11.2"
+      },
+      "Bronze-100": {
+        "hex": "#fde6d7",
+        "note": "Ramp step 100. White 1.2, charcoal 13.6"
+      },
+      "Bronze-50": {
+        "hex": "#fef3eb",
+        "note": "Ramp step 50. White 1.1, charcoal 14.9"
+      }
+    }
+  },
+  "roles": {
+    "bg": {
+      "color": "White",
+      "hex": "#ffffff"
+    },
+    "surface": {
+      "color": "White",
+      "hex": "#ffffff"
+    },
+    "text": {
+      "color": "Charcoal-900",
+      "hex": "#202020"
+    },
+    "text-muted": {
+      "color": "Charcoal-700",
+      "hex": "#606060"
+    },
+    "heading": {
+      "color": "Charcoal-900",
+      "hex": "#202020"
+    },
+    "link": {
+      "color": "Screen-Blue",
+      "hex": "#005cff"
+    },
+    "accent": {
+      "color": "Screen-Blue",
+      "hex": "#005cff"
+    },
+    "tint": {
+      "color": "Blue-100",
+      "hex": "#e6effe"
+    },
+    "line": {
+      "color": "Charcoal-900",
+      "hex": "#202020"
+    },
+    "on-dark": {
+      "color": "White",
+      "hex": "#ffffff"
+    },
+    "on-dark-accent": {
+      "color": "Screen-Blue",
+      "hex": "#005cff"
+    },
+    "status-better-tint": {
+      "color": "Jade-50",
+      "hex": "#ecfaed"
+    },
+    "status-better-ink": {
+      "color": "Jade-700",
+      "hex": "#006f2f"
+    },
+    "status-watch-tint": {
+      "color": "Bronze-50",
+      "hex": "#fef3eb"
+    },
+    "status-watch-ink": {
+      "color": "Bronze-700",
+      "hex": "#88460a"
+    },
+    "status-stopped-tint": {
+      "color": "Red-50",
+      "hex": "#fff1f1"
+    },
+    "status-stopped-ink": {
+      "color": "Red-700",
+      "hex": "#9d0021"
+    }
+  },
+  "grounds": {
+    "charcoal": {
+      "ground": "Charcoal-900",
+      "claim": "White",
+      "af": "Screen-Blue",
+      "text": "White"
+    },
+    "blue": {
+      "ground": "Screen-Blue",
+      "claim": "White",
+      "af": "Charcoal-900",
+      "text": "White"
+    },
+    "red": {
+      "ground": "Screen-Red",
+      "claim": "White",
+      "af": "Charcoal-900",
+      "text": "White"
+    },
+    "jade": {
+      "ground": "Screen-Jade",
+      "claim": "Charcoal-900",
+      "af": "White",
+      "text": "Charcoal-900"
+    },
+    "teal": {
+      "ground": "Screen-Teal",
+      "claim": "White",
+      "af": "Charcoal-900",
+      "text": "White"
+    },
+    "purple": {
+      "ground": "Screen-Purple",
+      "claim": "White",
+      "af": "Charcoal-900",
+      "text": "White"
+    },
+    "bronze": {
+      "ground": "Screen-Bronze",
+      "claim": "White",
+      "af": "Charcoal-900",
+      "text": "White"
+    },
+    "white": {
+      "ground": "White",
+      "claim": "Charcoal-900",
+      "af": "Screen-Blue",
+      "text": "Charcoal-900"
     }
   }
 }

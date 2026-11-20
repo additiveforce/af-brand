@@ -1,21 +1,94 @@
 {
   "meta": {
     "name": "AF Typography",
-    "version": "2026",
-    "scope": "Typeface roles + role→colour/case mappings. Concrete SIZES are defined in artefact-specific files, not here."
+    "version": "2.0",
+    "scope": "One family, Geist. Sizes are web values at 1440 wide; decks and documents keep the same roles."
   },
-  "typefaces": {
-    "display": { "family": "Poppins",        "weights": [700],      "case": "sentence", "usedFor": "headlines, titles, subheadings, accent lines" },
-    "body":    { "family": "IBM Plex Serif",  "weights": [300, 400], "case": "sentence", "usedFor": "narrative prose (300 general, 400 sustained article reading)" },
-    "mono":    { "family": "IBM Plex Mono",   "weights": [400, 500], "case": "uppercase for labels/eyebrows; sentence for descriptive data", "usedFor": "data, labels, eyebrows, captions, annotations" }
-  },
-  "roles": {
-    "eyebrow":    { "typeface": "mono",    "case": "uppercase", "tracking": "loose", "color": "Primary-Blue-800" },
-    "headline":   { "typeface": "display", "case": "sentence",  "color": "Deep-Indigo-900", "accentColor": "Primary-Blue-800" },
-    "accentLine": { "typeface": "display", "case": "sentence",  "color": "Primary-Blue-800" },
-    "subheading": { "typeface": "display", "case": "sentence",  "color": "Primary-Blue-800", "colorOnDark": "Pure-White" },
-    "body":       { "typeface": "body",    "weight": 300, "case": "sentence", "color": "Deep-Indigo-900", "colorOnDark": "light Deep-Indigo tint" },
-    "bodyProse":  { "typeface": "body",    "weight": 400, "case": "sentence", "color": "Deep-Indigo-900" },
-    "data":       { "typeface": "mono",    "case": "uppercase for labels" }
+  "family": "Geist",
+  "fallback": [
+    "system-ui",
+    "sans-serif"
+  ],
+  "styles": {
+    "screen": {
+      "size": "191px",
+      "lineHeight": "167px",
+      "weight": 900,
+      "tracking": "-0.03em",
+      "case": "capitals",
+      "usedFor": "Homepage folds. Geist Black, uppercase. One size on every fold, set so the longest word (INTELLIGENCE) fills the grid width"
+    },
+    "figure": {
+      "size": "96px",
+      "lineHeight": "86.4px",
+      "weight": 600,
+      "tracking": "-0.045em",
+      "case": "sentence",
+      "usedFor": "Result figures and key numbers. Tabular numerals"
+    },
+    "display": {
+      "size": "64px",
+      "lineHeight": "65.28px",
+      "weight": 600,
+      "tracking": "-0.035em",
+      "case": "sentence",
+      "usedFor": "Page H1. Once per page"
+    },
+    "head": {
+      "size": "24px",
+      "lineHeight": "30px",
+      "weight": 400,
+      "tracking": "-0.015em",
+      "case": "sentence",
+      "usedFor": "Ledes, quotes and the next-case link"
+    },
+    "head-strong": {
+      "size": "24px",
+      "lineHeight": "30px",
+      "weight": 600,
+      "tracking": "-0.015em",
+      "case": "sentence",
+      "usedFor": "Section lines and pull lines"
+    },
+    "body": {
+      "size": "16px",
+      "lineHeight": "25.6px",
+      "weight": 400,
+      "tracking": "0em",
+      "case": "sentence",
+      "usedFor": "Body text"
+    },
+    "body-strong": {
+      "size": "16px",
+      "lineHeight": "25.6px",
+      "weight": 600,
+      "tracking": "0em",
+      "case": "sentence",
+      "usedFor": "Text headings, nav links, names"
+    },
+    "nav": {
+      "size": "16px",
+      "lineHeight": "25.6px",
+      "weight": 500,
+      "tracking": "0em",
+      "case": "sentence",
+      "usedFor": "Nav links and the descriptor. Medium, the one exception to 400 and 600: 600 reads heavy in a browser"
+    },
+    "small": {
+      "size": "13px",
+      "lineHeight": "18.85px",
+      "weight": 400,
+      "tracking": "0em",
+      "case": "sentence",
+      "usedFor": "Captions, metadata, chart text"
+    },
+    "small-strong": {
+      "size": "13px",
+      "lineHeight": "18.85px",
+      "weight": 600,
+      "tracking": "0em",
+      "case": "sentence",
+      "usedFor": "Labels. Sentence case"
+    }
   }
 }

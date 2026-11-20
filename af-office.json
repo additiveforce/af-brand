@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "name": "AF Office values",
+    "version": "2.0",
+    "scope": "PowerPoint, Word and Excel. Hex without #."
+  },
+  "font": "Geist",
+  "text": "202020",
+  "textMuted": "606060",
+  "white": "FFFFFF",
+  "link": "005CFF",
+  "linkVisited": "004BD5",
+  "tint": "E6EFFE",
+  "tintStrong": "C8DCFF",
+  "rule": "DFDFDF",
+  "screen": {
+    "blue": "005CFF",
+    "red": "ED0037",
+    "jade": "04AC4D",
+    "teal": "078AA9",
+    "purple": "8E60FA",
+    "bronze": "C77434"
+  },
+  "grounds": {
+    "blue": {
+      "claim": "FFFFFF",
+      "af": "202020"
+    },
+    "red": {
+      "claim": "FFFFFF",
+      "af": "202020"
+    },
+    "jade": {
+      "claim": "202020",
+      "af": "FFFFFF"
+    },
+    "teal": {
+      "claim": "FFFFFF",
+      "af": "202020"
+    },
+    "purple": {
+      "claim": "FFFFFF",
+      "af": "202020"
+    },
+    "bronze": {
+      "claim": "FFFFFF",
+      "af": "202020"
+    }
+  }
+}
