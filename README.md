@@ -21,6 +21,7 @@ https://raw.githubusercontent.com/additiveforce/af-brand/main/logos/[filename]
 | `af-logo.md` | Logo files and placement |
 | `af-icons.md` | Which icon set to use |
 | `logos/` | Logo SVGs |
+| `icons/` | AF-drawn icons in Phosphor's style, one folder per weight |
 | `archive/brand-1.0/` | Brand 1.0 as it stood, kept for reference. Never use it for new work |
 
 The JSON files are generated from AF's private design-system master. Don't edit them by hand.
