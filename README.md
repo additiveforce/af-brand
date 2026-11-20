@@ -15,6 +15,7 @@ https://raw.githubusercontent.com/additiveforce/af-brand/main/logos/[filename]
 |---|---|
 | `af-color-system.json` | Every colour with hex, the interior roles (text, muted text, tint, link, status pairs) and the ink pairing for each full-colour ground |
 | `af-typography.json` | Geist and the type scale: size, line height, weight, tracking and case per style |
+| `af-layout.json` | Spacing steps, rhythm roles, rule weight, and the radius and shadow for renders of real software |
 | `af-office.json` | Theme values for PowerPoint, Word and Excel |
 | `af-color-system.md` | How to use the colours |
 | `af-typography.md` | How to use the type |

@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "name": "AF Layout",
+    "version": "2.0",
+    "scope": "Spacing, rules and window renders. Web values in px; decks keep their own slide grid."
+  },
+  "space": {
+    "2xs": "8px",
+    "xs": "16px",
+    "sm": "24px",
+    "md": "32px",
+    "lg": "48px",
+    "xl": "64px",
+    "2xl": "96px",
+    "3xl": "160px"
+  },
+  "rhythm": {
+    "row": {
+      "value": "24px",
+      "usedFor": "Padding above and below a row"
+    },
+    "inner": {
+      "value": "8px",
+      "usedFor": "Gap between parts inside one row, such as a label and its value"
+    },
+    "group": {
+      "value": "32px",
+      "usedFor": "Gap between groups of rows"
+    }
+  },
+  "rule": "1px",
+  "window": {
+    "usedFor": "Renders of real software and devices only. Nothing else takes radius or shadow",
+    "radius": "12px",
+    "shadow": "0 0 0 1px rgba(0, 26, 77, .06), 0 12px 32px -10px rgba(0, 26, 77, .22)"
+  }
+}
